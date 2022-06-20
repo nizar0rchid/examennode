@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Document</title>
+	</head>
+	<body>
+		<fieldset style="width: 33%; display: block; margin: auto">
+			<legend>Create User</legend>
+			<form action="/products/" method="post">
+				<div style="margin-bottom: 15px">
+					Label
+					<label style="width: 100%; margin-bottom: 15px">
+						<input type="text" placeholder="label" name="label" id="label"/>
+					</label>
+				</div>
+				<div style="margin-bottom: 15px">
+					Price
+					<label style="width: 100%; margin-bottom: 15px">
+						<input type="number" placeholder="price" name="price" id="price"/>
+					</label>
+				</div>
+				<div style="margin-bottom: 15px">
+					Quantity
+					<label style="width: 100%; margin-bottom: 15px">
+						<input type="number" placeholder="quantity" name="quantity" id="quantity"/>
+					</label>
+				</div>
+				<label for="image">image</label>
+
+				<input type="file" id="image" name="image" accept="image/png, image/jpeg">
+				<input type="submit" value="Créer" style="float: right"/>
+			</form>
+		</fieldset>
+	</body>
+</html>

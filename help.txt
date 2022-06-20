@@ -1,0 +1,23 @@
+n'oublier pas de puller les images docker avant l exam
+
+docker pull node:12
+docker pull mongo
+
+
+
+npm install express-generator -g
+
+
+generer un projet avec express-generator et twig comme template
+express --view=twig
+npm i 
+
+ajouter dossier controllers et dossier models et uploads dans le dossier du projet
+
+
+
+
+
+
+docker compose up
+=> pour gener l'image docker et l'executer

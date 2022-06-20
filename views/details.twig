@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<title>Document</title>
+	</head>
+	<body>
+		<div>
+			<h1>Label</h1>
+			<h2>{{ product.label }}</h2>
+		</div>
+		<div>
+			<h1>Price</h1>
+			<h2>$
+				{{ product.price }}</h2>
+		</div>
+		<div>
+			<h1>Quantity</h1>
+			<h2>{{ product.quantity }}
+				Item(s)</h2>
+		</div>
+		<div>
+			<img src="/{{ product.image }}" alt=""/>
+		</div>
+	</body>
+</html>
